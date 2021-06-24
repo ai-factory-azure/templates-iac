@@ -17,4 +17,4 @@ variables:
     value: mnist
   # Resource Manager Service Connection
   - name: AZURE_RM_SVC_CONNECTION
-    value: Azure_RM_Service_Connection
+    value: Azure-ARM-Dev
