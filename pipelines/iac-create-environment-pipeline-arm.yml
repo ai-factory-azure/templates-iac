@@ -6,6 +6,7 @@ trigger:
   paths:
     include:
       - arm-templates/*
+      - pipelines/*
 pr:
   branches:
     include:
@@ -13,6 +14,7 @@ pr:
   paths:
     include:
       - arm-templates/*
+      - pipelines/*
 
 pool:
   vmImage: "ubuntu-latest"
