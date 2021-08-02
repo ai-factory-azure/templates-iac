@@ -36,7 +36,7 @@
     },
     "keyvault": {
       "type": "string",
-      "defaultValue": "[concat(parameters('baseName'),'-AML-KV')]"
+      "defaultValue": "[concat('AML-KV-',substring(newGuid(),0,16))]"
     },
     "appInsights": {
       "type": "string",
